@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/redLightImage"
         android:layout_width="217dp"
         android:layout_height="372dp"
         android:layout_marginStart="97dp"
@@ -30,13 +30,14 @@
         android:layout_marginBottom="173dp"
         android:background="#BA1C1C"
         android:onClick="stopButton"
-        android:text="@string/stop"
-        android:textColor="@android:color/white"
+        android:text="Stop"
+        android:textColor="@android:color/primary_text_light_nodisable"
         android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/redLightImage"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Stop" />
 </androidx.constraintlayout.widget.ConstraintLayout>
